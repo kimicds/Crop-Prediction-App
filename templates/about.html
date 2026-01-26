@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wale Lab | About the Project</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(135deg, #0f172a, #020617);
+        color: #e5e7eb;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 80px 24px;
+    }
+
+    h1 {
+        font-size: 44px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        color: #38bdf8;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 28px;
+    }
+
+    .box {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(148, 163, 184, 0.15);
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .box h2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+        color: #e5e7eb;
+        font-weight: 600;
+    }
+
+    .box p {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #cbd5f5;
+        margin: 0;
+    }
+
+    .btn-back {
+        display: inline-block;
+        margin-top: 60px;
+        padding: 14px 26px;
+        border-radius: 8px;
+        background: #38bdf8;
+        color: #020617;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.25s ease;
+    }
+
+    .btn-back:hover {
+        background: #0ea5e9;
+    }
+
+    footer {
+        margin-top: 90px;
+        padding-top: 24px;
+        border-top: 1px solid rgba(148, 163, 184, 0.15);
+        font-size: 13px;
+        color: #94a3b8;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>About the Project</h1>
+
+    <div class="grid">
+
+        <div class="box">
+            <h2>Project Purpose</h2>
+            <p>
+                This project is an agricultural decision support system developed to
+                help farmers make informed crop selection decisions based on soil
+                properties, climate conditions, and environmental factors.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Problem It Addresses</h2>
+            <p>
+                Many farmers rely on experience alone when choosing crops, despite
+                variations in soil nutrients, rainfall, temperature, and humidity.
+                This system reduces uncertainty by providing data-backed predictions.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>How the System Works</h2>
+            <p>
+                The platform applies machine learning model to analyze soil and
+                weather data, identifying patterns that influence crop suitability
+                and generating predictions aligned with real farming conditions.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Mentorship & Development</h2>
+            <p>
+                This project was developed under the Wale lab mentorship program supervised by
+                Mr. Chibuzor, with a strong focus on applying data science to practical
+                agricultural challenges and real-world impact.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Implementation Approach</h2>
+            <p>
+                The system is built with a lightweight Flask architecture for ease of
+                use and deployment. Model retraining is handled externally to ensure
+                reliability, stability, and controlled performance.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Overall Goal</h2>
+            <p>
+                The goal is to support smarter farming decisions, improve productivity,
+                and help farmers plan with confidence using data-driven insights.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="/" class="btn-back"> Back Home</a>
+
+    <footer>
+        © 2026 Wale Lab · Agricultural Decision Support System
+    </footer>
+
+</div>
+</body>
+</html>

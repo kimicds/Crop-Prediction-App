@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wale Lab | Agricultural Decision Support Platform</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(135deg, #0f172a, #020617);
+        color: #e5e7eb;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 80px 24px;
+        text-align: center;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 6px 14px;
+        background: rgba(56, 189, 248, 0.15);
+        color: #38bdf8;
+        border-radius: 20px;
+        font-size: 13px;
+        letter-spacing: 0.3px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 1.2;
+        margin: 0 0 18px;
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        color: #cbd5f5;
+        max-width: 760px;
+        margin: 0 auto 40px;
+        line-height: 1.6;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+
+    .btn {
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.25s ease;
+    }
+
+    .btn-primary {
+        background: #38bdf8;
+        color: #020617;
+    }
+
+    .btn-primary:hover {
+        background: #0ea5e9;
+    }
+
+    .btn-outline {
+        border: 1px solid #475569;
+        color: #e5e7eb;
+    }
+
+    .btn-outline:hover {
+        border-color: #38bdf8;
+        color: #38bdf8;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 28px;
+    }
+
+    .feature {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(148, 163, 184, 0.15);
+        border-radius: 14px;
+        padding: 28px;
+        text-align: left;
+    }
+
+    .feature h3 {
+        margin: 0 0 12px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .feature p {
+        font-size: 14.5px;
+        line-height: 1.6;
+        color: #cbd5f5;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding-top: 24px;
+        border-top: 1px solid rgba(148, 163, 184, 0.15);
+        font-size: 13px;
+        color: #94a3b8;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <span class="badge">Agricultural Decision Support</span>
+
+    <h1>
+        Smart Crop Decision Support<br>
+        for Modern Farming
+    </h1>
+
+    <p class="subtitle">
+        This platform is built to support farmers and agricultural practitioners
+        by analyzing soil properties, weather conditions, and environmental factors
+        to generate reliable, data-driven recommendations. The goal is to improve
+        productivity, reduce uncertainty, and support informed on-farm decisions.
+    </p>
+
+    <div class="actions">
+        <a href="/predict" class="btn btn-primary">Make a Prediction</a>
+        <a href="/about" class="btn btn-outline">About the Project</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Soil-Based Insights</h3>
+            <p>
+                Uses key soil parameters such as pH, nutrients, and soil type to
+                support better crop-related decisions and management strategies.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Climate-Aware Analysis</h3>
+            <p>
+                Incorporates rainfall, temperature, and humidity data to reflect
+                real farming conditions and seasonal variability.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Farmer-Focused Decision Support</h3>
+            <p>
+                Designed to translate data and machine learning outputs into
+                practical insights that farmers can use to plan, adjust, and
+                optimize their agricultural practices.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Wale Lab · Agricultural Predictive Analytics
+    </footer>
+
+</div>
+</body>
+</html>

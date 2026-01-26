@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Prediction Result</title>
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(135deg,#0f172a,#020617);
+        color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box {
+        background: rgba(15,23,42,0.9);
+        padding: 50px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        max-width: 420px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 32px;
+        color: #38bdf8;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .crop {
+        font-size: 36px;
+        font-weight: 700;
+        color: #22c55e;
+        margin-bottom: 30px;
+    }
+
+    a {
+        display: inline-block;
+        padding: 14px 28px;
+        background: #38bdf8;
+        color: #020617;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background: #0ea5e9;
+    }
+</style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Recommended Crop</h2>
+    <p>The most suitable crop to plant is:</p>
+    <div class="crop">{{ crop }}</div>
+    <a href="/predict">Run Another Prediction</a>
+</div>
+
+</body>
+</html>
