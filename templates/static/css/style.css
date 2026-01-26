@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8fafb;
+    color: #2d2d2d;
+    line-height: 1.6;
+}
+
+/* Utilities */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #0b3d2e;
+    padding: 18px 0;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav a {
+    color: #e6f2ef;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-btn {
+    padding: 8px 18px;
+    border: 1px solid #e6f2ef;
+    border-radius: 20px;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #1b6f57, #2d8f6f);
+    color: white;
+    padding: 110px 0;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+.hero-actions {
+    margin-top: 30px;
+}
+
+.primary-btn {
+    background: #ffffff;
+    color: #0b3d2e;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.secondary-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Features */
+.features {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: #f9fbfa;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+}
+
+.feature-card span {
+    font-size: 32px;
+}
+
+.feature-card h3 {
+    margin: 15px 0 10px;
+}
+
+/* How it works */
+.how-it-works {
+    padding: 80px 0;
+    background: #f1f6f4;
+}
+
+.how-it-works h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.step {
+    text-align: center;
+    max-width: 200px;
+}
+
+.step-number {
+    background: #0b3d2e;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta-section {
+    padding: 70px 0;
+    text-align: center;
+    background: #0b3d2e;
+    color: white;
+}
+
+.large {
+    font-size: 18px;
+    padding: 14px 36px;
+}
+
+/* Footer */
+.footer {
+    background: #072a20;
+    color: #cfe5de;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
